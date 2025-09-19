@@ -1,0 +1,60 @@
+// compileCompressed: ../css/stats.css
+#wp-quiz-stats-filter-form {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+#wp-quiz-stats-filter-form .col {
+	margin-right: 15px;
+}
+
+#poststuff .wp-quiz-stats-quiz-title {
+	font-size: 1.3em;
+	font-weight: 700;
+	padding: 0;
+	margin: 1em 0;
+}
+
+.wp-quiz-stats-question {
+	background-color: #fff;
+}
+
+#wp-quiz-stats-quizzes {
+	margin: 0 -5px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.wp-quiz-stats-quiz {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 0 31%;
+	flex: 1 0 31%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 5px 15px;
+
+	.hndle {
+		position: relative;
+		padding-right: 36px !important;
+	}
+
+	.hndle-icon {
+		position: absolute;
+		top: 8px;
+		right: 8px;
+		opacity: 0.5;
+	}
+}
+
+.js .wp-quiz-stats-question .hndle {
+	cursor: unset;
+}
+
+.wp-quiz-stats-question-title small {
+	color: #777;
+	display: block;
+}

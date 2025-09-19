@@ -1,0 +1,1 @@
+"use strict";!function(t,r){t(document).ready(function(){t(".wq-quiz").on("wp_quiz_complete_quiz",function(t,i){if("redirect"===(i.settings.force_action?i.settings.force_action:r.settings.force_action)){var e=i.settings.redirect_url?i.settings.redirect_url:r.settings.redirect_url;"string"==typeof e&&e.trim()&&(window.location.href=e.trim())}})})}(jQuery,wpQuiz);
